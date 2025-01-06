@@ -1,0 +1,14 @@
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\bin\Debug\net8.0\FiveWordFiveletters_0.1.exe
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\bin\Debug\net8.0\FiveWordFiveletters_0.1.deps.json
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\bin\Debug\net8.0\FiveWordFiveletters_0.1.runtimeconfig.json
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\bin\Debug\net8.0\FiveWordFiveletters_0.1.dll
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\bin\Debug\net8.0\FiveWordFiveletters_0.1.pdb
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.dll
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\refint\FiveWordFiveletters_0.1.dll
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.pdb
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\FiveWordFiveletters_0.1.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\FiveWordFiveletters_0.1\FiveWordFiveletters_0.1\obj\Debug\net8.0\ref\FiveWordFiveletters_0.1.dll
