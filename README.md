@@ -1,4 +1,4 @@
-# Case:FiveWordFiveLetters
+# Case: FiveWordFiveLetters
 Opgave: https://www.youtube.com/watch?v=_-AfhLQfb6w&t=860s
 I skal lave et program der kan finde alle de ordkombinationer, hvor følgende er opfyldt:
 - Der skal være 5 ord
