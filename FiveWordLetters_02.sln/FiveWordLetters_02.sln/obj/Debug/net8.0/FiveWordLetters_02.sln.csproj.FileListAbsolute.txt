@@ -1,0 +1,14 @@
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\bin\Debug\net8.0\FiveWordLetters_02.sln.exe
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\bin\Debug\net8.0\FiveWordLetters_02.sln.deps.json
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\bin\Debug\net8.0\FiveWordLetters_02.sln.runtimeconfig.json
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\bin\Debug\net8.0\FiveWordLetters_02.sln.dll
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\bin\Debug\net8.0\FiveWordLetters_02.sln.pdb
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.dll
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\refint\FiveWordLetters_02.sln.dll
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.pdb
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\FiveWordLetters_02.sln.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\FiveWordLetters_02.sln\FiveWordLetters_02.sln\obj\Debug\net8.0\ref\FiveWordLetters_02.sln.dll

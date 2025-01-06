@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FiveWordLetters_02.sln/1.0.0": {
+        "runtime": {
+          "FiveWordLetters_02.sln.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FiveWordLetters_02.sln/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
