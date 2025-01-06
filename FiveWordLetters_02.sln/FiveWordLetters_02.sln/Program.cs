@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -10,8 +11,8 @@ namespace FiveWordFiveLetters
         static void Main(string[] args)
         {
             string filePath = "C:\\Users\\HFGF\\source\\repos\\FiveWordLetters_02.sln\\FiveWordLetters_02.sln\\assets\\words_not_perfect.txt";
+            Stopwatch stopwatch = Stopwatch.StartNew();
 
-            // Indlæs filen
             List<string> words = LoadWordsFromFile(filePath);
             if (words.Count == 0)
             {
@@ -24,6 +25,7 @@ namespace FiveWordFiveLetters
 
             // Find kombinationer
             var combinations = FindValidCombinations(words);
+            stopwatch.Stop();
 
             // Udskriv kombinationer
             if (combinations.Count > 0)
@@ -39,6 +41,7 @@ namespace FiveWordFiveLetters
             }
 
             Console.WriteLine($"Antal kombinationer fundet: {combinations.Count}");
+            Console.WriteLine($"Tid taget: {stopwatch.Elapsed.TotalSeconds:F2} sekunder");
         }
 
         static List<string> LoadWordsFromFile(string filePath)
@@ -53,7 +56,7 @@ namespace FiveWordFiveLetters
 
                 return File.ReadAllLines(filePath)
                     .Select(line => line.Trim().ToLower())
-                    .Where(line => !string.IsNullOrWhiteSpace(line)) // Fjern tomme linjer
+                    .Where(line => !string.IsNullOrWhiteSpace(line))
                     .ToList();
             }
             catch (Exception e)
@@ -71,12 +74,11 @@ namespace FiveWordFiveLetters
         static List<List<string>> FindValidCombinations(List<string> words)
         {
             var validCombinations = new List<List<string>>();
-            var alphabet = new HashSet<char>("abcdefghijklmnopqrstuvwxyz");
 
             foreach (var combination in GetCombinations(words, 5))
             {
                 var combinedLetters = combination.SelectMany(word => word).ToHashSet();
-                if (combinedLetters.Count == 25 && combinedLetters.SetEquals(alphabet))
+                if (combinedLetters.Count == 25)
                 {
                     validCombinations.Add(combination);
                 }
