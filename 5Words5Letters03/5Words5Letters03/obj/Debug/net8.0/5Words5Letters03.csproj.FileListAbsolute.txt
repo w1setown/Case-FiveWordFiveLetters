@@ -1,0 +1,14 @@
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\bin\Debug\net8.0\5Words5Letters03.exe
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\bin\Debug\net8.0\5Words5Letters03.deps.json
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\bin\Debug\net8.0\5Words5Letters03.runtimeconfig.json
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\bin\Debug\net8.0\5Words5Letters03.dll
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\bin\Debug\net8.0\5Words5Letters03.pdb
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.dll
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\refint\5Words5Letters03.dll
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.pdb
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\5Words5Letters03.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\5Words5Letters03\5Words5Letters03\obj\Debug\net8.0\ref\5Words5Letters03.dll
