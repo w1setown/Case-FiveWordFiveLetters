@@ -1,0 +1,14 @@
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\bin\Debug\net8.0\5Word5Letter_bit.exe
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\bin\Debug\net8.0\5Word5Letter_bit.deps.json
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\bin\Debug\net8.0\5Word5Letter_bit.runtimeconfig.json
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\bin\Debug\net8.0\5Word5Letter_bit.dll
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\bin\Debug\net8.0\5Word5Letter_bit.pdb
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.dll
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\refint\5Word5Letter_bit.dll
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.pdb
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\5Word5Letter_bit.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\5Word5Letter_bit\5Word5Letter_bit\obj\Debug\net8.0\ref\5Word5Letter_bit.dll
