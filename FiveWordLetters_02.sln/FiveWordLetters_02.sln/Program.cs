@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -10,30 +11,57 @@ namespace FiveWordFiveLetters
         static void Main(string[] args)
         {
             string filePath = "C:\\Users\\HFGF\\source\\repos\\FiveWordLetters_02.sln\\FiveWordLetters_02.sln\\assets\\words_not_perfect.txt";
-            List<string> words = LoadWordsFromFile(filePath);
+            Stopwatch stopwatch = Stopwatch.StartNew();
 
+            List<string> words = LoadWordsFromFile(filePath);
+            if (words.Count == 0)
+            {
+                Console.WriteLine("Ingen ord blev indlæst. Kontrollér filens sti og format.");
+                return;
+            }
+
+            // Filtrer gyldige ord
             words = words.Where(IsValidWord).Distinct().ToList();
 
+            // Find kombinationer
             var combinations = FindValidCombinations(words);
+            stopwatch.Stop();
 
-            
-            foreach (var combo in combinations)
+            // Udskriv kombinationer
+            if (combinations.Count > 0)
             {
-                Console.WriteLine(string.Join(", ", combo));
+                foreach (var combo in combinations)
+                {
+                    Console.WriteLine(string.Join(", ", combo));
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ingen gyldige kombinationer fundet.");
             }
 
             Console.WriteLine($"Antal kombinationer fundet: {combinations.Count}");
+            Console.WriteLine($"Tid taget: {stopwatch.Elapsed.TotalSeconds:F2} sekunder");
         }
 
         static List<string> LoadWordsFromFile(string filePath)
         {
             try
             {
-                return File.ReadAllLines(filePath).Select(line => line.Trim().ToLower()).ToList();
+                if (!File.Exists(filePath))
+                {
+                    Console.WriteLine($"Filen blev ikke fundet: {filePath}");
+                    return new List<string>();
+                }
+
+                return File.ReadAllLines(filePath)
+                    .Select(line => line.Trim().ToLower())
+                    .Where(line => !string.IsNullOrWhiteSpace(line))
+                    .ToList();
             }
             catch (Exception e)
             {
-                Console.WriteLine("Fejl ved indlæsning af fil: " + e.Message);
+                Console.WriteLine($"Fejl ved indlæsning af fil: {e.Message}");
                 return new List<string>();
             }
         }
@@ -46,12 +74,11 @@ namespace FiveWordFiveLetters
         static List<List<string>> FindValidCombinations(List<string> words)
         {
             var validCombinations = new List<List<string>>();
-            var alphabet = new HashSet<char>("abcdefghijklmnopqrstuvwxyz");
 
             foreach (var combination in GetCombinations(words, 5))
             {
                 var combinedLetters = combination.SelectMany(word => word).ToHashSet();
-                if (combinedLetters.Count == 25 && combinedLetters.SetEquals(alphabet))
+                if (combinedLetters.Count == 25)
                 {
                     validCombinations.Add(combination);
                 }
