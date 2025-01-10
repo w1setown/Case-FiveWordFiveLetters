@@ -7,7 +7,12 @@
       "RelativeMoniker": "D:0:0:{67F2E330-77DE-47F2-8B07-0A27D957B1E5}|5Word5Letter_bit\\5Word5Letter_bit.csproj|solutionrelative:5word5letter_bit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HFGF\\Downloads\\unique_words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{67F2E330-77DE-47F2-8B07-0A27D957B1E5}|5Word5Letter_bit\\5Word5Letter_bit.csproj|c:\\users\\hfgf\\source\\repos\\5word5letter_bit\\5word5letter_bit\\beta_words.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67F2E330-77DE-47F2-8B07-0A27D957B1E5}|5Word5Letter_bit\\5Word5Letter_bit.csproj|solutionrelative:5word5letter_bit\\beta_words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F2E330-77DE-47F2-8B07-0A27D957B1E5}|5Word5Letter_bit\\5Word5Letter_bit.csproj|c:\\users\\hfgf\\source\\repos\\5word5letter_bit\\5word5letter_bit\\unique_words.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67F2E330-77DE-47F2-8B07-0A27D957B1E5}|5Word5Letter_bit\\5Word5Letter_bit.csproj|solutionrelative:5word5letter_bit\\unique_words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,20 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "unique_words.txt",
-              "DocumentMoniker": "C:\\Users\\HFGF\\Downloads\\unique_words.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\unique_words.txt",
-              "ToolTip": "C:\\Users\\HFGF\\Downloads\\unique_words.txt",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\unique_words.txt",
+              "Title": "beta_words.txt",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\beta_words.txt",
+              "RelativeDocumentMoniker": "5Word5Letter_bit\\beta_words.txt",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\beta_words.txt",
+              "RelativeToolTip": "5Word5Letter_bit\\beta_words.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-08T10:34:18.054Z",
+              "WhenOpened": "2025-01-10T08:15:20.139Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "unique_words.txt",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\unique_words.txt",
+              "RelativeDocumentMoniker": "5Word5Letter_bit\\unique_words.txt",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\unique_words.txt",
+              "RelativeToolTip": "5Word5Letter_bit\\unique_words.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-09T13:23:49.291Z"
             },
             {
               "$type": "Document",
@@ -38,9 +55,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\Program.cs",
               "RelativeDocumentMoniker": "5Word5Letter_bit\\Program.cs",
-              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\Program.cs*",
-              "RelativeToolTip": "5Word5Letter_bit\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\5Word5Letter_bit\\5Word5Letter_bit\\Program.cs",
+              "RelativeToolTip": "5Word5Letter_bit\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwFsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T09:22:38.729Z",
               "EditorCaption": ""
