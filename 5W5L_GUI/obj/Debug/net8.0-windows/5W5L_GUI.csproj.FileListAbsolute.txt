@@ -1,0 +1,6 @@
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\_5W5L_GUI.Form1.resources
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\5W5L_GUI.csproj.GenerateResource.cache
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\5W5L_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\5W5L_GUI.AssemblyInfoInputs.cache
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\5W5L_GUI.AssemblyInfo.cs
+C:\Users\Gabriel\source\repos\5W5L_GUI\obj\Debug\net8.0-windows\5W5L_GUI.csproj.CoreCompileInputs.cache
