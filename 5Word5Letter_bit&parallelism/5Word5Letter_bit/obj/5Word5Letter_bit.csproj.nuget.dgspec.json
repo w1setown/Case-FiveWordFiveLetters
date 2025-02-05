@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\5Word5Letter_bit.csproj": {}
+    "C:\\Users\\Gabriel\\Documents\\GitHub\\Case-FiveWordFiveLetters\\5Word5Letter_bit&parallelism\\5Word5Letter_bit\\5Word5Letter_bit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\5Word5Letter_bit.csproj": {
+    "C:\\Users\\Gabriel\\Documents\\GitHub\\Case-FiveWordFiveLetters\\5Word5Letter_bit&parallelism\\5Word5Letter_bit\\5Word5Letter_bit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\5Word5Letter_bit.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\Case-FiveWordFiveLetters\\5Word5Letter_bit&parallelism\\5Word5Letter_bit\\5Word5Letter_bit.csproj",
         "projectName": "5Word5Letter_bit",
-        "projectPath": "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\5Word5Letter_bit.csproj",
+        "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Case-FiveWordFiveLetters\\5Word5Letter_bit&parallelism\\5Word5Letter_bit\\5Word5Letter_bit.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\Case-FiveWordFiveLetters\\5Word5Letter_bit&parallelism\\5Word5Letter_bit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",

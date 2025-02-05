@@ -1,26 +1,30 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace FiveWordFiveLetters_BitShift
 {
     internal class Program
     {
         // Hyppighed-alfabet
-        static readonly char[] FrequencyOrderedAlphabet =
-            "zqxjkvbpgfywmucldrhsnioate".ToCharArray();
+        static readonly char[] FrequencyOrderedAlphabet = "zqxjkvbpgfywmucldrhsnioate".ToCharArray();
+
+        // LetterFrequencePosition til bitmasker
+        static readonly int[] LetterFrequencePosition = { 16, 9, 23, 25, 22, 10, 21, 5, 24, 1, 7, 12, 15, 6, 20, 3, 2, 11, 14, 19, 13, 17, 0, 8, 18, 4 };
 
         static void Main(string[] args)
         {
-            string filePath = "C:\\Users\\Gabriel\\Desktop\\5Word5Letter_bit\\5Word5Letter_bit\\unique_words.txt";
+            string filePath = "unique_words.txt";
             int wordLength = 5, requiredWordCount = 5;
 
             Stopwatch stopwatch = Stopwatch.StartNew();
 
-            // Indlæs og filtrer i filen
+            // Indlæs og filtrer ordene
             var bitWords = LoadWords(filePath, wordLength);
 
             // Tjek efter gyldige ord
@@ -32,18 +36,20 @@ namespace FiveWordFiveLetters_BitShift
 
             Console.WriteLine($"Loaded {bitWords.Count} unique words.");
 
-            // Ord sorterés baseret på hyppighed via bits
-            var sortedBitWords = bitWords.Keys.OrderBy(CountBits).ToArray();
-
+            // Parallelisering med ConcurrentBag til at samle resultater
+            var solutionsBag = new ConcurrentBag<int>();
             int totalCombinations = 0;
 
-            // Find gyldige kombinationer vha. parallelism
-            Parallel.ForEach(sortedBitWords, usedBits =>
+            // Parallel søgning efter løsninger
+            Parallel.ForEach(bitWords.Keys, usedBits =>
             {
                 int localTotal = 0;
-                RecursiveFindCombinations(sortedBitWords, usedBits, 1, Array.IndexOf(sortedBitWords, usedBits) - 1, requiredWordCount, ref localTotal);
-                Interlocked.Add(ref totalCombinations, localTotal);
+                RecursiveFindCombinations(bitWords.Keys.ToArray(), usedBits, 1, Array.IndexOf(bitWords.Keys.ToArray(), usedBits) - 1, requiredWordCount, ref localTotal);
+                solutionsBag.Add(localTotal);
             });
+
+            // Saml resultater fra ConcurrentBag
+            totalCombinations = solutionsBag.Sum();
 
             // Tid og konsol output
             stopwatch.Stop();
@@ -59,17 +65,29 @@ namespace FiveWordFiveLetters_BitShift
             {
                 if (word.Length == wordLength && word.Distinct().Count() == wordLength)
                 {
-                    int bits = word.Aggregate(0, (acc, c) => acc | (1 << Array.IndexOf(FrequencyOrderedAlphabet, c)));
+                    int bits = wordToInt(word);
                     if (!bitWords.ContainsKey(bits)) bitWords[bits] = word;
                 }
             }
             return bitWords;
         }
 
+        // Konverterer et ord til en bitmask
+        static int wordToInt(string word)
+        {
+            int output = 0;
+            foreach (char c in word)
+            {
+                var position = LetterFrequencePosition[c - 'a'];
+                output |= 1 << position;
+            }
+            return output;
+        }
+
         // Tæller bits
         static int CountBits(int bits) => Convert.ToString(bits, 2).Count(b => b == '1');
 
-        // Gyldige kombinationer vha parallellism
+        // Rekursiv søgning efter kombinationer
         static void RecursiveFindCombinations(int[] bitWords, int usedBits, int wordCount, int index, int requiredWordCount, ref int totalCombinations)
         {
             if (wordCount == requiredWordCount)
@@ -78,8 +96,12 @@ namespace FiveWordFiveLetters_BitShift
                 return;
             }
             for (int i = index; i >= 0; i--)
+            {
                 if ((usedBits & bitWords[i]) == 0)
+                {
                     RecursiveFindCombinations(bitWords, usedBits | bitWords[i], wordCount + 1, i - 1, requiredWordCount, ref totalCombinations);
+                }
+            }
         }
     }
 }
